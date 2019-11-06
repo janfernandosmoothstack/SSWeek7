@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+    font-size: large;
+}
+
+button {
+    margin-top : 10px;
+    padding: 10px;
+    background-color: darkblue;
+    border: darkblue;
+    color : white;
+}
+
+button:hover {
+    background-color: black;
+}
